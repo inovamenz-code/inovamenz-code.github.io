@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yuhan Zhu</title>
+  <meta name="description" content="Yuhan Zhu's homepage on GitHub Pages.">
+  <style>
+    :root {
+      --bg: #f5efe4;
+      --panel: rgba(255, 251, 245, 0.78);
+      --text: #1c1a17;
+      --muted: #61594d;
+      --accent: #b9572f;
+      --border: rgba(28, 26, 23, 0.12);
+      --shadow: 0 24px 60px rgba(49, 34, 18, 0.12);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top left, rgba(185, 87, 47, 0.22), transparent 34%),
+        radial-gradient(circle at bottom right, rgba(101, 130, 106, 0.18), transparent 28%),
+        linear-gradient(135deg, #f7f1e7 0%, #efe5d6 100%);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(14px);
+      padding: 56px 28px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      font-size: 0.9rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2.6rem, 7vw, 5.2rem);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+
+    p {
+      margin: 20px 0 0;
+      max-width: 36rem;
+      font-size: 1.08rem;
+      line-height: 1.75;
+      color: var(--muted);
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      margin-top: 32px;
+    }
+
+    .links a {
+      color: var(--text);
+      text-decoration: none;
+      padding: 12px 16px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.65);
+      transition: transform 180ms ease, border-color 180ms ease, background 180ms ease;
+    }
+
+    .links a:hover {
+      transform: translateY(-2px);
+      border-color: rgba(185, 87, 47, 0.45);
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    footer {
+      margin-top: 40px;
+      font-size: 0.92rem;
+      color: var(--muted);
+    }
+
+    @media (max-width: 640px) {
+      .card {
+        padding: 36px 22px;
+        border-radius: 22px;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <p class="eyebrow">GitHub Pages</p>
+    <h1>Yuhan Zhu</h1>
+    <p>
+      这里放你的个人简介。建议写 1 到 2 句话，说明你是谁、在做什么、希望别人如何联系你。
+      例如：设计、研究、开发方向，或你的学校、职业与兴趣。
+    </p>
+    <div class="links">
+      <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="mailto:your-email@example.com">Email</a>
+    </div>
+    <footer>Update your bio, GitHub link, and email in <code>index.html</code>.</footer>
+  </main>
+</body>
+</html>
