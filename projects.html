@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en" data-language="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projects | Yuhan Zhu (Zuzu)</title>
+  <meta name="description" content="Selected game-engineering, technical-audio, graphics, and coursework projects by Yuhan Zhu (Zuzu).">
+  <link rel="canonical" href="https://inovamenz-code.github.io/projects.html">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content"><span data-lang="en">Skip to content</span><span data-lang="zh">跳至内容</span></a>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Yuhan Zhu home"><span class="brand-mark" aria-hidden="true">YZ</span><span>Yuhan Zhu <span aria-hidden="true">/</span> Zuzu</span></a>
+      <nav class="site-nav" aria-label="Primary" data-label-en="Primary" data-label-zh="主导航">
+        <a href="index.html"><span data-lang="en">Home</span><span data-lang="zh">主页</span></a>
+        <a href="projects.html" aria-current="page"><span data-lang="en">Projects</span><span data-lang="zh">项目</span></a>
+        <a href="about.html"><span data-lang="en">About</span><span data-lang="zh">关于我</span></a>
+        <a href="now.html"><span data-lang="en">Now</span><span data-lang="zh">近况</span></a>
+        <a href="contact.html"><span data-lang="en">Contact</span><span data-lang="zh">联系</span></a>
+      </nav>
+      <div class="nav-tools"><div class="lang-switch" aria-label="Language selection" data-label-en="Language selection" data-label-zh="语言选择"><button class="lang-button" type="button" data-set-language="en" aria-pressed="true">EN</button><button class="lang-button" type="button" data-set-language="zh" aria-pressed="false">中文</button></div><a class="nav-github" href="https://github.com/inovamenz-code" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    </header>
+
+    <main id="main-content">
+      <section class="page-hero">
+        <p class="eyebrow"><span data-lang="en">Projects</span><span data-lang="zh">项目</span></p>
+        <h1 class="page-title"><span data-lang="en">Things I have made, tested, and documented.</span><span data-lang="zh">我做过、验证过、记录过的项目。</span></h1>
+        <p class="page-intro"><span data-lang-block="en">This is one combined collection of personal work and selected coursework. I prioritise projects with visible implementation evidence; material that contains course, team, or third-party assets is released only when it is appropriate to do so.</span><span data-lang-block="zh">这里合并呈现个人项目与精选课程作品。我优先展示具有可见实现证据的内容；涉及课程、团队或第三方资产的材料，只会在适合公开时发布。</span></p>
+      </section>
+
+      <section class="section" aria-label="Selected projects" data-label-en="Selected projects" data-label-zh="精选项目">
+        <div class="project-grid project-grid--all">
+          <article class="project-card" id="adaptive-music">
+            <img class="project-image" src="assets/images/adaptive-music-experiment-dashboard.png" alt="Experiment dashboard for the adaptive music research project" data-alt-en="Experiment dashboard for the adaptive music research project" data-alt-zh="自适应音乐研究项目的实验仪表盘">
+            <div class="project-body">
+              <p class="project-kicker">MSc Dissertation · Unity · Python</p>
+              <h2><span data-lang="en">Real-Time Adaptive Music Tool</span><span data-lang="zh">实时自适应音乐工具</span></h2>
+              <p><span data-lang-block="en">An in-progress dissertation implementation that maps location, combat, and health state to controlled prompts. A Unity and Python pipeline generates, normalises, downloads, and plays MIDI while keeping an ambient layer present in the game.</span><span data-lang-block="zh">进行中的毕业设计实现：把地点、战斗与生命值等状态映射为受控提示词。Unity 与 Python 流程生成、规范化、下载并播放 MIDI，同时保留游戏中的环境氛围层。</span></p>
+              <div class="tag-list"><span class="tag">Unity</span><span class="tag">Python</span><span class="tag">MIDI</span><span class="tag">Adaptive music</span></div>
+              <div class="project-links"><a href="https://github.com/inovamenz-code/LLM-Adaptive-Music-Tool" target="_blank" rel="noopener noreferrer"><span data-lang="en">View repository ↗</span><span data-lang="zh">查看仓库 ↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card" id="dark-echo">
+            <img class="project-image" src="assets/images/darkecho-audio-system.png" alt="Unreal Blueprint and Wwise event setup for BallDarkEcho" data-alt-en="Unreal Blueprint and Wwise event setup for BallDarkEcho" data-alt-zh="BallDarkEcho 的 Unreal Blueprint 与 Wwise 事件设置">
+            <div class="project-body">
+              <p class="project-kicker">Unreal Engine 5.7 · Wwise · C++</p>
+              <h2>BallDarkEcho</h2>
+              <p><span data-lang-block="en">A Windows LAN deathmatch built around sound as gameplay information. I implemented Wwise events, spatial playback, SoundBank workflows, and a Blueprint-callable C++ component that posts and stops audio at game locations.</span><span data-lang-block="zh">一款以声音作为玩法信息的 Windows 局域网死亡竞赛游戏。我实现了 Wwise 事件、空间播放、SoundBank 工作流，以及可在游戏位置触发和停止声音的 Blueprint 可调用 C++ 组件。</span></p>
+              <div class="tag-list"><span class="tag">UE 5.7</span><span class="tag">Wwise</span><span class="tag">C++</span><span class="tag">Blueprint</span><span class="tag">Spatial audio</span></div>
+              <div class="project-links"><a href="https://github.com/inovamenz-code/DarkEcho" target="_blank" rel="noopener noreferrer"><span data-lang="en">View repository ↗</span><span data-lang="zh">查看仓库 ↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card" id="path-tracer">
+            <img class="project-image project-image--contain" src="assets/images/path-tracer-render.png" alt="C++ path tracer coursework output with a Cornell box scene" data-alt-en="C++ path tracer coursework output with a Cornell box scene" data-alt-zh="C++ 路径追踪器课程项目的 Cornell Box 渲染输出">
+            <div class="project-body">
+              <p class="project-kicker">C++ · Computer Graphics</p>
+              <h2><span data-lang="en">C++ Path Tracer</span><span data-lang="zh">C++ 路径追踪器</span></h2>
+              <p><span data-lang-block="en">A graphics coursework project extending a teaching renderer. The public repository includes a Windows build, scenes, outputs, and documented work on acceleration, sampling, denoising, and render inspection.</span><span data-lang-block="zh">一个在教学渲染器基础上扩展的图形学课程项目。公开仓库包含 Windows 构建、场景、输出结果，以及加速结构、采样、降噪与渲染检查的文档。</span></p>
+              <div class="tag-list"><span class="tag">C++</span><span class="tag">Path tracing</span><span class="tag">Rendering</span><span class="tag">OIDN</span></div>
+              <div class="project-links"><a href="https://github.com/inovamenz-code/WM9M3-Project" target="_blank" rel="noopener noreferrer"><span data-lang="en">View repository ↗</span><span data-lang="zh">查看仓库 ↗</span></a></div>
+            </div>
+          </article>
+
+          <article class="project-card" id="survival-prototype">
+            <div class="project-body">
+              <p class="project-kicker">C++ · Gameplay Systems</p>
+              <h2><span data-lang="en">2D Survival Shooter Prototype</span><span data-lang="zh">2D 生存射击原型</span></h2>
+              <p><span data-lang-block="en">A C++ coursework game built around a real-time game loop, combat pressure, collision, object pooling, maps, and saves. I am preparing a smaller public archive that separates my source and documentation from course materials and runtime assets.</span><span data-lang-block="zh">一个围绕实时游戏循环、战斗压力、碰撞、对象池、地图与存档构建的 C++ 课程游戏。我正在准备精简的公开档案，将我的源码与说明文档和课程材料、运行资源分开。</span></p>
+              <div class="tag-list"><span class="tag">C++</span><span class="tag">Gameplay</span><span class="tag">Collision</span><span class="tag">Object pooling</span></div>
+              <div class="project-links"><span><span data-lang="en">Repository being prepared</span><span data-lang="zh">仓库整理中</span></span></div>
+            </div>
+          </article>
+
+          <article class="project-card" id="sci-fi-level">
+            <div class="project-body">
+              <p class="project-kicker">Team Project · Unreal · FMOD</p>
+              <h2><span data-lang="en">Sci-Fi Combat Game Level</span><span data-lang="zh">科幻战斗游戏关卡</span></h2>
+              <p><span data-lang-block="en">A multidisciplinary team project where I contributed to technical audio, exterior terrain work, a rocket-level section, UI feedback, and small-group coordination. Public material will be curated only with team and asset permission.</span><span data-lang-block="zh">一个跨学科团队项目。我参与了技术音频、室外地形、火箭关卡片段、UI 反馈与小组协作。公开材料会在取得团队和资产许可后再进行整理。</span></p>
+              <div class="tag-list"><span class="tag">Unreal</span><span class="tag">FMOD</span><span class="tag">Level design</span><span class="tag">Technical audio</span></div>
+              <div class="project-links"><span><span data-lang="en">Team material under review</span><span data-lang="zh">团队材料审核中</span></span></div>
+            </div>
+          </article>
+
+          <article class="project-card" id="pig-catch">
+            <div class="project-body">
+              <p class="project-kicker">C++ · DirectX 12</p>
+              <h2><span data-lang="en">Pig Catch</span><span data-lang="zh">Pig Catch</span></h2>
+              <p><span data-lang-block="en">A C++ and DirectX 12 coursework game exploring skeletal animation, instancing, normal mapping, collision, and gameplay interaction. Its public version is held back while third-party model and texture licences are verified.</span><span data-lang-block="zh">一个探索骨骼动画、实例化、法线贴图、碰撞和玩法交互的 C++ / DirectX 12 课程游戏。公开版本将等到第三方模型与贴图授权核实后再发布。</span></p>
+              <div class="tag-list"><span class="tag">C++</span><span class="tag">DirectX 12</span><span class="tag">Animation</span><span class="tag">Instancing</span></div>
+              <div class="project-links"><span><span data-lang="en">Release subject to asset licences</span><span data-lang="zh">待资产授权确认后发布</span></span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="notice"><p><span data-lang-block="en">Public repositories are deliberately smaller than the working projects. They exclude course briefs, solution archives, build caches, research data, model weights, and unverified third-party assets.</span><span data-lang-block="zh">公开仓库会刻意小于本地工作工程：不包含课程 brief、参考答案归档、构建缓存、研究数据、模型权重或未经确认的第三方资产。</span></p></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>© 2026 Yuhan Zhu (Zuzu)</span><nav aria-label="Footer" data-label-en="Footer" data-label-zh="页脚导航"><a href="https://github.com/inovamenz-code" target="_blank" rel="noopener noreferrer">GitHub</a><a href="https://www.linkedin.com/in/yuhan-zhu-52607a36a/" target="_blank" rel="noopener noreferrer">LinkedIn</a><a href="contact.html"><span data-lang="en">Contact</span><span data-lang="zh">联系</span></a></nav></footer>
+  </div>
+  <script src="assets/site.js"></script>
+</body>
+</html>
