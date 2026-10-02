@@ -498,8 +498,6 @@ main { min-height: calc(100vh - 180px); }
   background: var(--bg-soft);
 }
 
-.project-image--contain { object-fit: contain; background: #e9e8e2; }
-
 .project-body { display: flex; flex: 1; flex-direction: column; padding: 1.2rem; }
 
 .project-kicker {
