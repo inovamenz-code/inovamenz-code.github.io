@@ -12,13 +12,13 @@ A bilingual personal website for my projects, background and development updates
 - One project collection combining selected personal work and coursework.
 - Separate About, Now and Contact pages, rather than a single long scrolling page.
 - English and Chinese content with a language selector and a saved language preference.
-- Project evidence and direct repository links, with availability and dependency limits explained in each project's own README.
+- Project screenshots and repository links, with build instructions in each project's README.
 
 ## My contribution
 
 I organise the project selection, descriptions, bilingual copy and page structure around my own work. The implementation uses a static layout, reusable CSS and a small JavaScript language switcher. The site introduces project purpose before technical detail so a visitor can quickly decide which work to explore.
 
-Project screenshots are evidence from the corresponding work; they are not proof that every listed feature has been freshly tested. Each repository explains its own current implementation, dependencies, verification and third-party components.
+Each project's repository includes implementation notes, dependencies and asset credits.
 
 ## Pages and implementation
 
@@ -46,9 +46,9 @@ The default branch is `master`. GitHub Pages publishes the static files from the
 
 ## Status and project scope
 
-The website is published. The 11 October 2026 documentation refresh updates repository links and records the dissertation as completed with continuing development. WM908 remains a prepared local source-and-evidence archive, with no public repository or download claimed here.
+The website is published. The November 2026 updates add music-tool and Anti-Alien screenshots, project links and revised bilingual descriptions. The dissertation is complete; WM908's public release is in preparation.
 
-The homepage continues to prioritise game-related work. Graphics coursework is retained separately on GitHub and is not added to the homepage. Public project repositories are smaller than working folders where appropriate; check their individual documentation for what is included.
+The homepage features WM908, BallDarkEcho and Adaptive Game Music. Projects also includes Anti-Alien Level 6. Graphics coursework stays on GitHub.
 
 ## Credits
 

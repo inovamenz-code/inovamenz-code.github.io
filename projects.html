@@ -30,8 +30,8 @@
     <main id="main-content">
       <section class="page-hero">
         <p class="eyebrow"><span data-lang="en">Projects</span><span data-lang="zh">项目</span></p>
-        <h1 class="page-title"><span data-lang="en">Things I have made, tested, and documented.</span><span data-lang="zh">我做过、验证过、记录过的项目。</span></h1>
-        <p class="page-intro"><span data-lang-block="en">This is one combined collection of personal work and selected coursework. I prioritise projects with visible implementation evidence; material that contains course, team, or third-party assets is released only when it is appropriate to do so.</span><span data-lang-block="zh">这里合并呈现个人项目与精选课程作品。我优先展示具有可见实现证据的内容；涉及课程、团队或第三方资产的材料，只会在适合公开时发布。</span></p>
+        <h1 class="page-title"><span data-lang="en">Games and tools I have worked on.</span><span data-lang="zh">我制作和参与的游戏与工具。</span></h1>
+        <p class="page-intro"><span data-lang-block="en">Personal projects and university work, with screenshots, my role and links to the available repositories.</span><span data-lang-block="zh">这里收录个人项目和大学期间的作品，介绍项目内容、我的工作，以及可查看的截图和仓库。</span></p>
       </section>
 
       <section class="section" aria-label="Selected projects" data-label-en="Selected projects" data-label-zh="精选项目">
@@ -39,11 +39,11 @@
           <article class="project-card" id="survival-prototype">
             <img class="project-image" src="assets/images/wm908-survival-shooter.png" alt="Gameplay screenshot from the WM908 Survival Shooter prototype" data-alt-en="Gameplay screenshot from the WM908 Survival Shooter prototype" data-alt-zh="WM908 生存射击原型的实际游戏画面">
             <div class="project-body">
-              <p class="project-kicker">C++17 · Gameplay Systems · Coursework Prototype</p>
+              <p class="project-kicker">C++ · Gameplay Systems · Coursework Prototype</p>
               <h2><span data-lang="en">WM908 Survival Shooter</span><span data-lang="zh">WM908 生存射击原型</span></h2>
-              <p><span data-lang-block="en">A C++17 survival game with fixed and infinite map modes, mouse-aimed attacks, enemy spawning, pickups, scoring, cooldown skills, and save/load state. The prepared source-and-evidence archive includes gameplay code, level and balance data, and screenshots; runtime art and audio assets remain outside the public archive.</span><span data-lang-block="zh">一项 C++17 生存游戏项目，包含固定与无限地图、鼠标瞄准攻击、敌人生成、拾取物、得分、冷却技能和存档/读档。已整理的源码与证据档案包含玩法代码、关卡与平衡数据及截图；运行时美术和音频资源不在公开档案中。</span></p>
-              <div class="tag-list"><span class="tag">C++17</span><span class="tag">Gameplay</span><span class="tag">Collision</span><span class="tag">Object pooling</span><span class="tag">Save / Load</span></div>
-              <div class="project-links"><span><span data-lang="en">Public archive prepared for release</span><span data-lang="zh">公开档案已整理，待发布</span></span></div>
+              <p><span data-lang-block="en">A C++ top-down survival game made for WM908. I implemented combat, enemy spawning, pickups, scoring, cooldown skills and save/load, with both fixed and infinite map modes.</span><span data-lang-block="zh">WM908 课程中用 C++ 制作的俯视生存游戏。我实现了战斗、敌人生成、拾取物、得分、冷却技能和存档读档，支持固定地图与无限地图两种模式。</span></p>
+              <div class="tag-list"><span class="tag">C++</span><span class="tag">Gameplay</span><span class="tag">Collision</span><span class="tag">Object pooling</span><span class="tag">Save / Load</span></div>
+              <div class="project-links"><span><span data-lang="en">Public release in preparation</span><span data-lang="zh">公开版本整理中</span></span></div>
             </div>
           </article>
 
@@ -65,13 +65,13 @@
             <div class="project-body">
               <p class="project-kicker">MSc Dissertation · Unity · Python</p>
               <h2><span data-lang="en">Adaptive Game Music Tool</span><span data-lang="zh">自适应游戏音乐工具</span></h2>
-              <p><span data-lang-block="en">A completed MSc dissertation implementation, with ongoing development. It maps location, combat and health state to controlled prompts, generates MIDI or WAV through local Python services, and returns the result to Unity while retaining an ambient layer.</span><span data-lang-block="zh">已完成并继续迭代的硕士毕设实现：把地点、战斗与生命值映射为受控提示词，通过本地 Python 服务生成 MIDI 或 WAV，再返回 Unity 播放，同时保留环境氛围层。</span></p>
+              <p><span data-lang-block="en">My MSc dissertation project connects Unity gameplay to local Python music-generation services. Location, combat and health determine the prompt; the generated MIDI or WAV plays in Unity alongside scene ambience.</span><span data-lang-block="zh">我的硕士毕设把 Unity 游戏与本地 Python 音乐生成服务连接起来，根据地点、战斗和生命值组织提示词，再将生成的 MIDI 或 WAV 放回游戏中播放，同时保留场景环境音。</span></p>
               <p class="project-media-caption"><span data-lang-block="en">Control console: generation settings, editable prompt rules and live game state. Click either screenshot to view it at full size.</span><span data-lang-block="zh">控制台：生成设置、可编辑的提示词规则与游戏实时状态。点击任一截图可查看完整大图。</span></p>
               <figure class="project-shot">
                 <a class="project-media" href="assets/images/adaptive-music-snowfield-demo.png" target="_blank" rel="noopener noreferrer" aria-label="Open full-size Unity snowfield demo screenshot" data-label-en="Open full-size Unity snowfield demo screenshot" data-label-zh="查看 Unity 雪地演示完整截图">
                   <img src="assets/images/adaptive-music-snowfield-demo.png" alt="Unity snowfield demonstration scene with a connected music console and MIDI-LLM selected" data-alt-en="Unity snowfield demonstration scene with a connected music console and MIDI-LLM selected" data-alt-zh="Unity 雪地演示场景：已连接音乐控制台，选择 MIDI-LLM 路线" loading="lazy" decoding="async">
                 </a>
-                <figcaption><span data-lang-block="en">Unity demonstration scene used to test the music integration, with existing game and art components. These screenshots show separate runtime states, not one generation run.</span><span data-lang-block="zh">用于测试音乐集成的 Unity 演示场景，使用现有游戏与美术组件。两张截图展示不同运行状态，并非同一次生成过程。</span></figcaption>
+                <figcaption><span data-lang-block="en">Snowfield music-integration test scene, using existing game and art components. Captured separately from the console screenshot.</span><span data-lang-block="zh">雪地音乐集成测试场景，使用现有游戏与美术组件，与控制台截图分次拍摄。</span></figcaption>
               </figure>
               <div class="tag-list"><span class="tag">Unity</span><span class="tag">Python</span><span class="tag">MIDI / WAV</span><span class="tag">Adaptive music</span></div>
               <div class="project-links"><a href="https://github.com/inovamenz-code/adaptive-game-music" target="_blank" rel="noopener noreferrer"><span data-lang="en">View repository ↗</span><span data-lang="zh">查看仓库 ↗</span></a></div>
@@ -86,7 +86,7 @@
               <p class="project-kicker">Team Project · Unreal Engine · Blueprint Audio</p>
               <h2><span data-lang="en">Anti-Alien — Level 6</span><span data-lang="zh">Anti-Alien — 科幻战斗游戏第六关</span></h2>
               <p><span data-lang-block="en">Level 6 of a collaborative sci-fi combat game. I contributed Blueprint audio, exterior terrain and rocket-area level work, supporting UMG UI, and coordination of a six-person group within the wider 42-person project.</span><span data-lang-block="zh">团队科幻战斗游戏的第六关。我参与 Blueprint 音频实现、室外地形与火箭区域关卡制作、配套 UMG UI，并负责 42 人整体项目中的六人小组协调。</span></p>
-              <p class="project-media-caption"><span data-lang-block="en">Development-build gameplay screenshot; debug lines remain visible. The game combines team contributions and third-party assets. Click the image to view it at full size.</span><span data-lang-block="zh">开发版本实际游戏截图，保留调试线。游戏包含团队共同成果与第三方资产；点击图片可查看完整大图。</span></p>
+              <p class="project-media-caption"><span data-lang-block="en">Rocket-area gameplay from the development build. Team project with third-party assets. Click to view the full screenshot.</span><span data-lang-block="zh">开发版本的火箭区域实机画面。团队项目，使用第三方资产；点击可查看完整截图。</span></p>
               <div class="tag-list"><span class="tag">Unreal Engine</span><span class="tag">Blueprint</span><span class="tag">Sound Cues</span><span class="tag">UMG</span><span class="tag">Team coordination</span></div>
               <div class="project-links"><a href="https://github.com/inovamenz-code/Anti-Alien-Level6" target="_blank" rel="noopener noreferrer"><span data-lang="en">View repository ↗</span><span data-lang="zh">查看仓库 ↗</span></a></div>
             </div>
@@ -96,7 +96,7 @@
       </section>
 
       <section class="section">
-        <div class="notice"><p><span data-lang-block="en">Each project's README explains what is included, how to try the work, and its dependencies and current limits.</span><span data-lang-block="zh">各项目的 README 说明收录内容、体验方法、所需依赖与当前限制。</span></p></div>
+        <div class="notice"><p><span data-lang-block="en">Build instructions and asset credits are in each project's README.</span><span data-lang-block="zh">运行方法和素材署名见各项目的 README。</span></p></div>
       </section>
     </main>
 
