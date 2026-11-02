@@ -289,6 +289,12 @@ main { min-height: calc(100vh - 180px); }
 .hero h1 > span { color: var(--text-main); }
 .hero h1 > span > span { color: var(--blue-main); }
 
+.hero h1,
+.page-title,
+.contact-panel h2 {
+  text-shadow: 6px -5px 0 rgba(49, 92, 255, 0.12);
+}
+
 .hero-role {
   display: flex;
   align-items: center;
