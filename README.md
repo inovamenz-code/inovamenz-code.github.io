@@ -10,7 +10,7 @@ A bilingual personal website for my projects, background and development updates
 
 - A personal homepage with three selected projects: WM908 Survival Shooter, BallDarkEcho and Adaptive Game Music.
 - One project collection combining selected personal work and coursework.
-- Separate About, Now and Contact pages, rather than a single long scrolling page.
+- Separate Home, Projects, About and Contact pages.
 - English and Chinese content with a language selector and a saved language preference.
 - Project screenshots and repository links, with build instructions in each project's README.
 
@@ -27,7 +27,6 @@ Each project's repository includes implementation notes, dependencies and asset 
 | Home | Introduce me and show three selected projects | [index.html](index.html) |
 | Projects | Combine personal work and selected coursework | [projects.html](projects.html) |
 | About | Explain background, interests and working approach | [about.html](about.html) |
-| Now | Summarise current development | [now.html](now.html) |
 | Contact | Provide contact and professional links | [contact.html](contact.html) |
 | CSS | Shared typography, layout and responsive styles | [site.css](assets/site.css) |
 | JavaScript | Switch displayed language and retain the choice | [site.js](assets/site.js) |

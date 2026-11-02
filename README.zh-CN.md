@@ -10,7 +10,7 @@
 
 - 个人首页及三个精选项目：WM908 Survival Shooter、BallDarkEcho 和自适应游戏音乐工具。
 - 合并呈现个人作品与精选课程项目的项目页面。
-- 独立的 About、Now 和 Contact 页面，使用页面切换。
+- 独立的 Home、Projects、About 和 Contact 页面，使用页面切换。
 - 中英文内容、语言选择器和保存的语言偏好。
 - 项目截图和仓库链接，运行方法见各项目的 README。
 
@@ -27,7 +27,6 @@
 | Home | 介绍个人并展示三个精选项目 | [index.html](index.html) |
 | Projects | 合并个人作品与精选课程项目 | [projects.html](projects.html) |
 | About | 背景、兴趣与工作方式 | [about.html](about.html) |
-| Now | 当前开发近况 | [now.html](now.html) |
 | Contact | 联系方式与职业链接 | [contact.html](contact.html) |
 | CSS | 共享字体、布局和响应式样式 | [site.css](assets/site.css) |
 | JavaScript | 切换语言并保留选择 | [site.js](assets/site.js) |
