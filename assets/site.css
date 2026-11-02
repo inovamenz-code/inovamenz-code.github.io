@@ -279,7 +279,7 @@ main { min-height: calc(100vh - 180px); }
   margin: 1.05rem 0 0;
   color: var(--text-main);
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(3.7rem, 8.5vw, 6.5rem);
+  font-size: clamp(2.59rem, 5.95vw, 4.55rem);
   font-weight: 700;
   letter-spacing: -0.05em;
   line-height: 0.9;
@@ -579,7 +579,7 @@ main { min-height: calc(100vh - 180px); }
 
 .page-hero { padding-top: clamp(2.8rem, 7vw, 5.7rem); padding-bottom: 3.1rem; }
 
-.page-title { max-width: 16ch; font-size: clamp(3.1rem, 6.8vw, 5.7rem); }
+.page-title { max-width: 16ch; font-size: clamp(2.17rem, 4.76vw, 3.99rem); }
 
 .page-intro { margin-top: 1.25rem; font-size: 1.02rem; }
 
@@ -654,7 +654,7 @@ main { min-height: calc(100vh - 180px); }
   margin: 0;
   color: var(--text-main);
   font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: clamp(2.7rem, 5vw, 4rem);
+  font-size: clamp(1.89rem, 3.5vw, 2.8rem);
   letter-spacing: -0.045em;
   line-height: 0.95;
 }
@@ -680,10 +680,14 @@ main { min-height: calc(100vh - 180px); }
 .language-details p { margin: 0.4rem 0; color: var(--text-muted); font-size: 0.9rem; line-height: 1.65; }
 .language-details strong { color: var(--text-main); font-weight: 600; }
 .contact-base { margin: 1.5rem 0 0; color: var(--text-muted); }
+.contact-intro-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(1.5rem, 4vw, 3rem); }
+.contact-intro-grid > * { min-width: 0; }
+.contact-intro-grid .page-title { max-width: none; }
 .contact-interests { border-left: 1px solid var(--line-soft); padding-left: clamp(1.25rem, 3vw, 2.5rem); }
 .contact-interests p:not(.eyebrow) { margin-top: 1.5rem; line-height: 1.8; }
 
 @media (max-width: 700px) {
+  .contact-intro-grid { grid-template-columns: 1fr; }
   .contact-interests { border-left: 0; border-top: 1px solid var(--line-soft); padding: 1.5rem 0 0; }
   .skills-panel .signal-list div { grid-template-columns: 1fr; gap: 0.35rem; }
   .contact-link { flex-wrap: wrap; }
@@ -735,8 +739,8 @@ html[data-language="zh"] [data-lang-block="zh"] { display: block; }
   .nav-tools { width: 100%; justify-content: space-between; }
   .hero { padding-top: 3.25rem; }
   .hero > div:first-child::before { left: -0.85rem; }
-  .hero h1 { font-size: clamp(3.1rem, 17vw, 4.5rem); }
-  .page-title { font-size: clamp(2.35rem, 12.5vw, 3.2rem); }
+  .hero h1 { font-size: clamp(2.17rem, 11.9vw, 3.15rem); }
+  .page-title { font-size: clamp(1.645rem, 8.75vw, 2.24rem); }
   .hero-panel { min-height: 25rem; }
   .project-grid,
   .project-grid--all,
