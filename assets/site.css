@@ -674,6 +674,21 @@ main { min-height: calc(100vh - 180px); }
 .contact-link span { color: var(--text-muted); text-align: right; }
 .contact-link:hover span { color: var(--blue-main); }
 
+.skills-panel .signal-list div { grid-template-columns: minmax(7rem, 0.7fr) minmax(0, 1.3fr); }
+.skills-panel .signal-list strong { line-height: 1.5; }
+.language-details { margin-top: 1.5rem; }
+.language-details p { margin: 0.4rem 0; color: var(--text-muted); font-size: 0.9rem; line-height: 1.65; }
+.language-details strong { color: var(--text-main); font-weight: 600; }
+.contact-base { margin: 1.5rem 0 0; color: var(--text-muted); }
+.contact-interests { border-left: 1px solid var(--line-soft); padding-left: clamp(1.25rem, 3vw, 2.5rem); }
+.contact-interests p:not(.eyebrow) { margin-top: 1.5rem; line-height: 1.8; }
+
+@media (max-width: 700px) {
+  .contact-interests { border-left: 0; border-top: 1px solid var(--line-soft); padding: 1.5rem 0 0; }
+  .skills-panel .signal-list div { grid-template-columns: 1fr; gap: 0.35rem; }
+  .contact-link { flex-wrap: wrap; }
+}
+
 .notice { padding: 1rem 1.1rem; border-left: 1px solid var(--gold-main); color: #6a552e; background: #fff9ed; }
 .notice p { margin: 0; }
 
